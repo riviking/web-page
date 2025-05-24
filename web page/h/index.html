@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Activity 4_Task 02</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <style>
+        body{
+            background-color: rgb(13, 7, 43);
+        }
+        
+        .menu1{
+            list-style-type:none;
+            border-color: black ;
+            margin-left:5%;
+            
+            
+            
+            
+        }
+        
+        .itemlist{
+            float:left;
+            background-color: rgb(124, 160, 172);
+            border-style:solid;
+            border-radius:15px ;
+            
+            
+            width:30%;
+            height:500px;
+            
+            font-size: 30px ;
+            font-family:fantasy ;
+            color:rgb(30, 3, 55);
+            text-align:center;
+            
+         
+            
+        }
+        
+        .itemimg1{
+            background-image:url("menswear.webp");
+            height:70%;
+            width:90%;
+            margin:5%;
+            border-radius: 6px;
+        
+        }
+        
+        .itemimg2{
+            background-image:url("wemensware.jpg");
+            height:78%;
+            width:90%;
+            margin:5%;
+            border-radius: 6px;
+        
+        }
+        
+        .itemimg3{
+            background-image:url("kidswear.jpg");
+            height:85%;
+            width:90%;
+            margin:5%;
+            border-radius: 6px;
+        
+        }
+        
+        .bts{
+            list-style-type: none;
+            background-color: rgb(221, 15, 15);
+            margin-top:500px;
+            margin-left: 8%;
+            width:81%;
+           
+            
+        }
+        
+        .button1{
+            float:left;
+            width:15%;
+            height:40px;
+            margin-left:6%;
+        
+            border-width: 6px;
+            border-color: aqua;
+            border-style:groove;
+            border-radius: 12px;
+            
+        
+            background-color: rgb(112, 216, 122);
+           
+            
+            
+        }
+        
+        .button2{
+            float:left;
+            width:15%;
+            height:40px;
+            margin-left:19%;
+        
+            border-width: 6px;
+            border-color: aqua;
+            border-style:groove;
+            border-radius: 12px;
+            
+        
+            background-color: rgb(112, 216, 124);
+            
+        }
+        
+        .button3{
+            float:left;
+            width:15%;
+            height:40px;
+            margin-right:6%;
+        
+            border-width: 6px;
+            border-color: aqua;
+            border-style:groove;
+            border-radius: 12px;
+            
+        
+            background-color: rgb(112, 216, 117);
+            
+        }
+        
+        footer{
+            color:black;
+            background-color: antiquewhite;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            padding:5px;
+        }
+
+        /************menswear*************/
+
+        .mbody{
+            background-image:url("mbackground.jpg");
+            width:100%;
+            height:800px;
+        }
+
+    .mtitle{
+        font-size:50px;
+        font-style: oblique;
+        font-weight:bold;
+        color:rgb(20, 2, 58);
+        background-color:rgb(116, 223, 247);
+        text-shadow: 5px;
+    }
+         
+    
+    
+    .mplist{
+        float:left;
+        list-style-type: none;
+        
+        width:96%;
+        
+        color:red;
+    
+        
+    }
+    
+    .mpitem{
+        float:left;
+        border-width: 5px;
+        border-style:groove;
+        
+        border-color: rgb(255, 241, 241);
+    
+        background-color: blueviolet;
+        
+    
+        width:15%;
+        height:300px;
+    
+        margin-left:1%;
+    }
+    
+    .mpimg1{
+        background-image: url("m1.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .mpimg2{
+        background-image: url("m2.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .mpimg3{
+        background-image: url("m3.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .mpimg4{
+        background-image: url("m4.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .mpimg5{
+        background-image: url("m5.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .mpimg6{
+        background-image: url("m6.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .mpimg7{
+        background-image: url("m7.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .mpimg8{
+        background-image: url("m8.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .mpimg9{
+        background-image: url("m9.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .mpimg10{
+        background-image: url("m10.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .mpimg11{
+        background-image: url("m11.jpg");
+        height: 200px;
+        
+    
+    }
+    
+    .mpimg12{
+        background-image: url("m12.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    
+    #details{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:black;
+        text-align-last: center;
+        border-width: 8px;
+        font-weight: bold;
+        
+    
+    }
+
+    /***************wemens wear****************/  
+    .wbody{
+    
+    background-image:url("wbackground.jpeg");
+    width:100%;
+    height:800px;
+    
+    
+    }    
+
+.wtitle{
+    background-color:rgb(236, 210, 125);
+    width:100%;
+    font-size: 50px;
+    color:rgb(234, 33, 133);
+    font-style: oblique;
+    font-weight:bold;
+    text-shadow: 5px;
+}         
+    
+    
+    .wplist{
+        float:left;
+        list-style-type: none;
+        
+        width:96%;
+        
+        color:red;
+    
+        
+    }
+    
+    .wpitem{
+        float:left;
+        border-width: 5px;
+        border-style: solid;
+        border-color: rgb(255, 241, 241);
+    
+        background-color: hotpink;
+        
+    
+        width:15%;
+        height:300px;
+    
+        margin-left:1%;
+    }
+    
+    .wpimg1{
+        background-image: url("w1.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .wpimg2{
+        background-image: url("w2.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .wpimg3{
+        background-image: url("w3.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .wpimg4{
+        background-image: url("w4.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .wpimg5{
+        background-image: url("w5.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .wpimg6{
+        background-image: url("w6.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .wpimg7{
+        background-image: url("w7.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .wpimg8{
+        background-image: url("w8.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .wpimg9{
+        background-image: url("w9.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .wpimg10{
+        background-image: url("w10.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .wpimg11{
+        background-image: url("w11.jpg");
+        height: 200px;
+        
+    
+    }
+    
+    .wpimg12{
+        background-image: url("w12.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    
+    #details{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:black;
+        text-align-last: center;
+        border-width: 8px;
+        font-weight: bold;
+    }
+
+
+    /**********kidswear**********/
+    .kbody{
+    
+    background-image:url("kbackground.jpg");
+    width:100%;
+    height:800px;
+    
+    }    
+
+    .ktitle{
+        background-color:rgb(31, 200, 226);
+        width:100%;
+        font-size: 50px;
+        color:rgb(255, 255, 255);
+        font-style: oblique;
+        font-weight:bold;
+        text-shadow: 5px;
+    }         
+    
+    
+    .kplist{
+        float:left;
+        list-style-type: none;
+       
+        width:96%;
+        
+        color:red;
+    
+        
+    }
+    
+    .kpitem{
+        float:left;
+        border-width: 5px;
+        border-style: double;
+        border-color: rgb(129, 206, 136);
+    
+        background-color: hotpink;
+        
+    
+        width:15%;
+        height:300px;
+    
+        margin-left:1%;
+    }
+    
+    .kpimg1{
+        background-image: url("k1.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .kpimg2{
+        background-image: url("k2.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .kpimg3{
+        background-image: url("k3.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .kpimg4{
+        background-image: url("k4.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .kpimg5{
+        background-image: url("k5.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .kpimg6{
+        background-image: url("k6.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .kpimg7{
+        background-image: url("k7.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .kpimg8{
+        background-image: url("k8.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .kpimg9{
+        background-image: url("k9.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .kpimg10{
+        background-image: url("k10.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    .kpimg11{
+        background-image: url("k11.jpg");
+        height: 200px;
+        
+    
+    }
+    
+    .kpimg12{
+        background-image: url("k12.jpg");
+        height: 200px;
+        
+        
+    }
+    
+    
+    #details{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:black;
+        text-align-last: center;
+        border-width: 8px;
+        font-weight: bold;
+        
+    
+    }
+
+        
+    
+
+
+        </style>
+        
+    </head>
+    <body>
+        <ol class="menu1">
+        <li><div class="itemlist">men's wear<div class="itemimg1"></div></div></li>
+        <li><div class="itemlist">women's wear<div class="itemimg2"></div></div></li>
+        <li><div class="itemlist">kid's wear<div class="itemimg3"></div></div></li>
+        </ol>  
+        <br/>
+       
+        <ol class="bts">
+            <li><a href="#mtitle"><button class="button1" class="but" >shop now</button></a></li>
+            <li><a href="#wtitle"><button class="button2" class="but" >shop now</button></a></li>
+            <li><a href="#ktitle"><button class="button2" class="but">shop now</button></a></li>
+        </ol>
+        <br><br><br><br>
+        <div>
+            <font size="50px" color="red" ><center>
+            to view ongoing promotions
+            <a href="promotions.html"> click here</a>
+            </center></font>
+        </div>
+        
+<!-----------menswear------------>
+        <div class="mbody">
+        <div class="mtitle" id="mtitle"><center>men's wear</center> </div>
+            
+        <ol class="mplist">
+            
+            <li><div class="mpitem">
+                <div class="mpimg1"></div>  
+                <div class="details1" id="details">LKR.1500.00<br>available<br>Shirt</div>
+                </div>
+            </li>
+            <li><div class="mpitem">
+                <div class="mpimg2"></div>
+                <div class="details2" id="details">LKR.1700.00<br>available<br>Shirt</div>
+                </div>
+            </li>
+            <li><div class="mpitem">
+                <div class="mpimg3"></div>
+                <div class="details3" id="details">LKR.1800.00<br>available<br>Shirt</div>
+                </div>
+            </li>
+            <li><div class="mpitem">
+                <div class="mpimg4"></div>
+                <div class="details4" id="details">LKR.1700.00<br>available<br>Shirt</div>
+                </div>
+            </li>
+            <li><div class="mpitem">
+                <div class="mpimg5"></div>
+                <div class="details5" id="details">LKR.1600.00<br>available<br>Shirt</div>
+                </div>
+            </li>
+            <li><div class="mpitem">
+                <div class="mpimg6"></div>
+                <div class="details6" id="details">LKR.1600.00<br>available<br>Shirt</div>
+                </div>
+            </li>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <li><div class="mpitem">
+                <div class="mpimg7"></div>
+                <div class="details7" id="details">LKR.1900.00<br>available<br>Trouser</div>
+                </div>
+            </li>
+            <li><div class="mpitem">
+                <div class="mpimg8"></div>
+                <div class="details8" id="details">LKR.2500.00<br>available<br>Trouser</div>
+                </div>
+            </li>
+            <li><div class="mpitem">
+                <div class="mpimg9"></div>
+                <div class="details9" id="details">LKR.2700.00<br>available<br>Trousers</div>
+                </div>
+            </li>
+            <li><div class="mpitem">
+                <div class="mpimg10"></div>
+                <div class="details10" id="details">LKR.2900.00<br>available<br>Trousers</div>
+                </div>
+            </li>
+            <li><div class="mpitem">
+                <div class="mpimg11"></div>
+                <div class="details11" id="details">LKR.2570.00<br>available<br>Trousers</div>
+                </div
+            </li>
+            <li><div class="mpitem">
+                <div class="mpimg12"></div>
+                <div class="details12" id="details">LKR.1950.00<br>available<br>Trousers</div>
+                </div>
+            </li>
+         </ol>    
+        </div>
+
+<!-----------wemenswear------------>        
+<div class="wbody">
+       <div class="wtitle" id="wtitle"><center>women's wear</center> </div>
+            
+        <ol class="wplist">
+            
+            <li><div class="wpitem">
+                <div class="wpimg1"></div>  
+                <div class="details1" id="details">LKR.1500.00<br>available<br>tee</div>
+                </div>
+            </li>
+            <li><div class="wpitem">
+                <div class="wpimg2"></div>
+                <div class="details2" id="details">LKR.1700.00<br>available<br>tee</div>
+                </div>
+            </li>
+            <li><div class="wpitem">
+                <div class="wpimg3"></div>
+                <div class="details3" id="details">LKR.1800.00<br>available<br>dress Mamba</div>
+                </div>
+            </li>
+            <li><div class="wpitem">
+                <div class="wpimg4"></div>
+                <div class="details4" id="details">LKR.1700.00<br>available<br>dress Sage</div>
+                </div>
+            </li>
+            <li><div class="wpitem">
+                <div class="wpimg5"></div>
+                <div class="details5" id="details">LKR.1600.00<br>available<br>Maxi dress</div>
+                </div>
+            </li>
+            <li><div class="wpitem">
+                <div class="wpimg6"></div>
+                <div class="details6" id="details">LKR.1600.00<br>available<br>jacket</div>
+                </div>
+            </li>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <li><div class="wpitem">
+                <div class="wpimg7"></div>
+                <div class="details7" id="details">LKR.1900.00<br>available<br>denim</div>
+                </div>
+            </li>
+            <li><div class="wpitem">
+                <div class="wpimg8"></div>
+                <div class="details8" id="details">LKR.2500.00<br>available<br>denim</div>
+                </div>
+            </li>
+            <li><div class="wpitem">
+                <div class="wpimg9"></div>
+                <div class="details9" id="details">LKR.2700.00<br>available<br>jacket</div>
+                </div>
+            </li>
+            <li><div class="wpitem">
+                <div class="wpimg10"></div>
+                <div class="details10" id="details">LKR.2900.00<br>available<br>denim</div>
+                </div>
+            </li>
+            <li><div class="wpitem">
+                <div class="wpimg11"></div>
+                <div class="details11" id="details">LKR.2570.00<br>available<br>jacket</div>
+                </div
+            </li>
+            <li><div class="wpitem">
+                <div class="wpimg12"></div>
+                <div class="details12" id="details">LKR.1950.00<br>available<br>jacket</div>
+                </div>
+            </li>
+        </ol>    
+    </div> 
+        
+        
+           
+       
+
+        <!-----------kidswear----------->
+    <div class="kbody">
+        <div class="ktitle" id="ktitle"><center>kids' wear</center> </div> 
+        <ol class="kplist">
+            <li><div class="kpitem">
+                <div class="kpimg1"></div>  
+                <div class="details1" id="details">LKR.1500.00<br>available<br>Baby Shirt</div>
+                </div>
+            </li>
+            <li><div class="kpitem">
+                <div class="kpimg2"></div>
+                <div class="details2" id="details">LKR.1700.00<br>available<br>Baby Shirt</div>
+                </div>
+            </li>
+            <li><div class="kpitem">
+                <div class="kpimg3"></div>
+                <div class="details3" id="details">LKR.1800.00<br>available<br>Baby frock</div>
+                </div>
+            </li>
+            <li><div class="kpitem">
+                <div class="kpimg4"></div>
+                <div class="details4" id="details">LKR.1700.00<br>available<br>Baby frock</div>
+                </div>
+            </li>
+            <li><div class="kpitem">
+                <div class="kpimg5"></div>
+                <div class="details5" id="details">LKR.1600.00<br>available<br>Baby frock</div>
+                </div>
+            </li>
+            <li><div class="kpitem">
+                <div class="kpimg6"></div>
+                <div class="details6" id="details">LKR.1600.00<br>available<br>Baby frock</div>
+                </div>
+            </li>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <li><div class="kpitem">
+                <div class="kpimg7"></div>
+                <div class="details7" id="details">LKR.1900.00<br>available<br>Baby Shirt</div>
+                </div>
+            </li>
+            <li><div class="kpitem">
+                <div class="kpimg8"></div>
+                <div class="details8" id="details">LKR.2500.00<br>available<br>Baby Shirt</div>
+                </div>
+            </li>
+            <li><div class="kpitem">
+                <div class="kpimg9"></div>
+                <div class="details9" id="details">LKR.2700.00<br>available<br>Baby Shirt</div>
+                </div>
+            </li>
+            <li><div class="kpitem">
+                <div class="kpimg10"></div>
+                <div class="details10" id="details">LKR.2900.00<br>available<br>Baby Shirt</div>
+                </div>
+            </li>
+            <li><div class="kpitem">
+                <div class="kpimg11"></div>
+                <div class="details11" id="details">LKR.2570.00<br>available<br>Baby Shirt</div>
+                </div
+            </li>
+            <li><div class="kpitem">
+                <div class="kpimg12"></div>
+                <div class="details12" id="details">LKR.1950.00<br>available<br>Baby Shirt</div>
+                </div>
+            </li>
+        </ol>    
+    </div>
+        
+        
+             
+    
+       
+       
+       
+       
+        <footer>
+        <table border="1">
+        <tr>
+        <th>address:</th>
+        <th>email:</th>
+        <th>contact:</th>
+        </tr>
+        <tr>
+        <td>No:12,<br>panadura</td>
+        <td>xyz@gmail.com</td>
+        <td>071XXXXXXX</td>
+        </tr>
+        </table>
+        <a href="#top">back to top</a>
+       </footer>
+        
+    </body>
+</html>
